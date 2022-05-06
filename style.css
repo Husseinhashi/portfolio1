@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,300&display=swap');
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+	min-height: 1000px;
+}
+footer{
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+}
+h1{
+	text-align: center;
+}
+
+nav{
+	background-color: black;
+	border-top: 2px solid darkblue;
+	border-bottom: 2px solid darkblue;
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+
+nav a:link{
+	color: white;
+}
+nav a:visited{
+	color: white;
+}
+
+nav a:hover{
+	color: #cccccc;;
+}
+ 
+nav a:active{
+	color: gray; 
+}
+table{
+	border-collapse: collapse;
+	border: 4px solid black;
+	padding-right: 8em;
+}
+td,th{
+	border: 2px solid gray;
+	padding: 5px;
+}
+input{
+	margin-bottom:1em ;
+	display: block;
+}
+textarea{
+	margin-bottom:1em ;
+	display: block;
+}
+input[type=submit]{
+	display: block;
+	background-color: lightgray;
+}
+
+
+
+form{
+	background-color: yellowgreen;
+		border: 1px solid green;
+		padding: 20px;
+		max-width: 350px;
+		margin: 0 auto;
+		box-shadow: 2px 2px 2px green;
+}
+.me{
+	float: left;
+	margin-right: 30px;
+}
+.logo{
+	margin: 0 auto;
+	display: block;
+	background-color: skyblue;
+
+}
+header{
+	background-color: skyblue;
+}
+h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+}
+p{
+	font-size: 20px;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	box-sizing: border-box;
+}
+P{
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+ul{
+	font-size: 20px;
+}
+
+.footer1000 {
+	margin: 0 auto;
+    padding: 40px 0;
+    color: #ffffff;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+.footer-bottom {
+    background-color: black;
+    padding: 40px;
+    color: #CDEAF8;
+    text-align: center;
+    width: 100%;
+}
+footer {
+    clear: both;
+    background-color: #3D3491;
+    color: white;
+    border-top: 1px solid black;
+    color: white;
+    margin: 40px 0 0 0;
+    display: block;
+}
+.home-hero {
+	min-height: 300px;
+    background-image: url(images/header.jpg);
+    background-size: cover;
+    padding-top: 20px;
+    color: white;
+    text-shadow: 1px 1px 0 black;
+    box-sizing: border-box;
+}
+
+
+@media only screen and (max-width: 1024px){
+h1{
+	font-size: 2em;
+	}
+}
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
+
+
+
